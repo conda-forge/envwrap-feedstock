@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: envwrap
-  version: "0.3.0"
+  version: "1.0.0"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 2e6afadbc38c4e7d866b9714d2375fb640c263dd3f636e3e86194a695675e80b
+  sha256: e99dbba8ac3217d5a6dbb88437b26705782f6835054b80cbca511059a9bda29e
 
 build:
   number: 0
