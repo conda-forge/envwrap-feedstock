@@ -48,7 +48,6 @@ tests:
       run:
         - python ${{ python_min }}.*
         - pytest
-        - toml
     script:
       - envwrap --help
       - pytest
